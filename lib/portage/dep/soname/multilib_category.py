@@ -66,6 +66,7 @@ from portage.util.elf.constants import (
     EM_SPARC32PLUS,
     EM_SPARCV9,
     EM_X86_64,
+    EM_XTENSA,
     E_MIPS_ABI_EABI32,
     E_MIPS_ABI_EABI64,
     E_MIPS_ABI_O32,
@@ -92,6 +93,7 @@ _machine_prefix_map = {
     EM_SPARC32PLUS: "sparc",
     EM_SPARCV9: "sparc",
     EM_X86_64: "x86",
+    EM_XTENSA: "xtensa",
 }
 
 _loong_abi_map = {
